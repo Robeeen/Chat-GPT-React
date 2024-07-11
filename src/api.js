@@ -6,7 +6,7 @@ const openaiApiKey = process.env.VITE_API_URL;
 
 const fetchChatResponse = async (message) => {
   const response = await axios.post(
-    'https://api.openai.com/v1/engines/davinci-codex/completions',
+    'https://api.openai.com/v1/chat/completions',
     {
       prompt: message,
       max_tokens: 150,
