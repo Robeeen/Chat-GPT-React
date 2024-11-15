@@ -14,6 +14,7 @@ Installation Instructions
 
 - Must install npm -i process
 - Must install npm -i axios
+- Must find the error with authentication 401- unauthorized
 
 Shams Khan
 
