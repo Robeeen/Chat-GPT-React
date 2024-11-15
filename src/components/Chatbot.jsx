@@ -35,7 +35,7 @@ const Chatbot = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
-        <button type="submit">Send</button>
+        <button type="submit">Send Query</button>
       </form>
     </div>
   );
